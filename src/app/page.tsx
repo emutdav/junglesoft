@@ -10,6 +10,7 @@ import PickServices from "@/ui/services/PickServices";
 export default function Home() {
   return (
     <main>
+      
       <Banner />
       <PickServices />
       <CoreServices />
