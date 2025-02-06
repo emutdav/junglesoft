@@ -35,8 +35,7 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            
           </p>
         </div>
       </div>
@@ -57,14 +56,13 @@ const BasicProducts = () => {
               React Native
             </h3>
             <p className="text-sm uppercase text-secondaryColor mt-1">
-              Get you mobile App
+              Get your mobile App
             </p>
           </div>
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+           
           </p>
         </div>
       </div>
@@ -83,14 +81,13 @@ const BasicProducts = () => {
           <div className="font-titleFont">
             <h3 className="text-2xl font-semibold tracking-wider">Next js</h3>
             <p className="text-sm uppercase text-secondaryColor mt-1">
-              Dynamic without limits
+              Fast Websites without limits
             </p>
           </div>
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            
           </p>
         </div>
       </div>
@@ -111,14 +108,13 @@ const BasicProducts = () => {
               Tailwindcss
             </h3>
             <p className="text-sm uppercase text-secondaryColor mt-1">
-              CSS Framework
+              Best CSS Framework
             </p>
           </div>
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            
           </p>
         </div>
       </div>
@@ -135,7 +131,7 @@ const BasicProducts = () => {
             <Image src={iconEight} alt="iconEight" />
           </div>
           <div className="font-titleFont">
-            <h3 className="text-2xl font-semibold tracking-wider">Sanity.io</h3>
+            <h3 className="text-2xl font-semibold tracking-wider">Postgres</h3>
             <p className="text-sm uppercase text-secondaryColor mt-1">
               Content Is Data
             </p>
@@ -143,8 +139,7 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            
           </p>
         </div>
       </div>
@@ -161,7 +156,7 @@ const BasicProducts = () => {
             <Image src={iconNine} alt="iconNine" />
           </div>
           <div className="font-titleFont">
-            <h3 className="text-2xl font-semibold tracking-wider">Firebase</h3>
+            <h3 className="text-2xl font-semibold tracking-wider">MongoDB</h3>
             <p className="text-sm uppercase text-secondaryColor mt-1">
               Speed up your App
             </p>
@@ -169,8 +164,7 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            
           </p>
         </div>
       </div>
@@ -195,8 +189,7 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            
           </p>
         </div>
       </div>
@@ -213,7 +206,7 @@ const BasicProducts = () => {
             <Image src={iconEleven} alt="iconEleven" />
           </div>
           <div className="font-titleFont">
-            <h3 className="text-2xl font-semibold tracking-wider">Netlify</h3>
+            <h3 className="text-2xl font-semibold tracking-wider">AWS</h3>
             <p className="text-sm uppercase text-secondaryColor mt-1">
               Your web is here
             </p>
@@ -221,8 +214,7 @@ const BasicProducts = () => {
         </div>
         <div>
           <p className="text-darkText text-base tracking-wide text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            molestiae veniam quasi mollitia!
+            
           </p>
         </div>
       </div>

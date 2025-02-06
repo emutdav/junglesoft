@@ -11,7 +11,7 @@ const Projects = () => {
           projects overview
         </h4>
         <h2 className="text-3xl lg:text-[35px] font-semibold tracking-[2px] lg:leading-[55px]">
-          Some of the projects we have done
+          Our projects
         </h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 gap-16 py-10">

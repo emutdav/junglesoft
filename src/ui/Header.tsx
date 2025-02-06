@@ -13,10 +13,6 @@ import { MdClose } from "react-icons/md";
 
 const navigation = [
   { title: "Home", link: "/" },
-  { title: "About us", link: "/about" },
-  { title: "Services", link: "/services" },
-  { title: "Faq", link: "/faq" },
-  { title: "Blog", link: "/blog" },
   { title: "Contact", link: "/contact" },
 ];
 
@@ -27,10 +23,10 @@ const Header = () => {
   const pathname = usePathname();
 
   const [navSize, setNavSize] = useState("90px");
-  const [navColor, setNavColor] = useState("#161616");
+  const [navColor, setNavColor] = useState("#8a8484");
 
   const listenScrollEvent = () => {
-    window.scrollY > 10 ? setNavColor("#000000") : setNavColor("#161616");
+    window.scrollY > 10 ? setNavColor("#000000") : setNavColor("#8a8484");
     window.scrollY > 10 ? setNavSize("90px") : setNavSize("90px");
   };
 
@@ -108,7 +104,7 @@ const Header = () => {
             {/* ================= Header Nav Link end here ====================== */}
             {/* ================= Header Emergency start here =================== */}
 
-            <div
+           {/*  <div
               onClick={() => setShowSideNav(!showSideNav)}
               className="relative hidden text-xl w-11 h-11 lgl:flex flex-col gap-[6px] border-b-[1px] border-b-gray-500 border-t-[1px] border-t-gray-500 items-center justify-center group hover:cursor-pointer overflow-hidden menuBtn"
             >
@@ -124,7 +120,7 @@ const Header = () => {
 
               <span className="h-full w-[1px] bg-gray-500 inline-block absolute right-0 translate-y-8 group-hover:translate-y-0 transition-transform duration-300"></span>
               <span className="h-full w-[1px] bg-gray-500 inline-block absolute left-0 -translate-y-8 group-hover:translate-y-0 transition-transform duration-300"></span>
-            </div>
+            </div> */}
 
             {/* ================= Header Emergency end here ===================== */}
           </header>
@@ -136,7 +132,7 @@ const Header = () => {
         </div>
       </nav>
       {/* ================= Navlink small screen start here ============= */}
-      {toggleNav && (
+      {/* {toggleNav && (
         <motion.div
           initial={{ y: -20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
@@ -187,7 +183,7 @@ const Header = () => {
             </Link>
           </ul>
         </motion.div>
-      )}
+      )} */}
       {/* ================= Navlink small screen end here =============== */}
     </>
   );

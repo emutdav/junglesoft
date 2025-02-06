@@ -71,12 +71,12 @@ const Faq = () => {
                     ></span>
                   </p>
 
-                  <span className="text-lg font-semibold text-white/80 group-data-[open]:text-white">
+                  <span className="text-lg font-semibold text-black/80 group-data-[open]:text-white">
                     {item?.title}
                   </span>
                   <BiChevronDown className="size-6 fill-white/70 group-data-[hover]:fill-white/50 group-data-[open]:rotate-180" />
                 </DisclosureButton>
-                <DisclosurePanel className="mt-2 text-sm/5 text-white/80 tracking-wide leading-6">
+                <DisclosurePanel className="mt-2 text-sm/5 text-black/80 tracking-wide leading-6">
                   {item?.subTitle}
                 </DisclosurePanel>
               </Disclosure>
@@ -90,61 +90,35 @@ const Faq = () => {
           </h3>
           <div className="mt-4 flex flex-col gap-8">
             <div className="flex flex-col gap-2">
-              <h4 className="text-lg uppercase">Bangladesh :</h4>
+              <h4 className="text-lg uppercase">Kenya :</h4>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <FaHome />
                 </span>
-                Rupnogor Abashik Area, <br />
-                Mirpur-1, Dhaka.
+                Nairobi, Westlands Area, <br />
+                Dagoretti, Nairobi.
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <MdMarkEmailUnread />
                 </span>
-                reactjsbd@gmail.com
+                info@junglesoft.pro
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <BsPhoneFill />
                 </span>
-                +968 97859628
+                +254 716611029
               </p>
               <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
                 <span className="text-secondaryColor text-lg">
                   <IoLogoWhatsapp />
                 </span>
-                +968 97859628
+                +254 734550043
               </p>
             </div>
-            <div className="flex flex-col gap-2">
-              <h4 className="text-lg uppercase">Oman :</h4>
-              <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
-                <span className="text-secondaryColor text-lg">
-                  <FaHome />
-                </span>
-                Muscat Business Area, Ruwi, <br />
-                Muscat, Sultanate of Oman
-              </p>
-              <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
-                <span className="text-secondaryColor text-lg">
-                  <MdMarkEmailUnread />
-                </span>
-                reactjsbd@gmail.com
-              </p>
-              <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
-                <span className="text-secondaryColor text-lg">
-                  <BsPhoneFill />
-                </span>
-                +968 97859628
-              </p>
-              <p className="flex items-center gap-3 text-darkText hover:text-white hover:cursor-pointer transition-hover duration-300">
-                <span className="text-secondaryColor text-lg">
-                  <IoLogoWhatsapp />
-                </span>
-                +968 97859628
-              </p>
-            </div>
+
+            
           </div>
         </div>
       </div>
