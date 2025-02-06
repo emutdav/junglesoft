@@ -27,9 +27,6 @@ import aboutUsImgThree from "./pages/aboutUs/aboutUsImgThree.webp";
 // ================ Porject Images Start here ====================
 
 import eCommerceProImg from "@/assets/project/eCommercePro2.jpg";
-//import movieStudioImg from "@/assets/project/movieStudio.png";
-//import cyberBlogImg from "@/assets/project/cyberBlog.webp";
-//import amazonCloneImg from "@/assets/project/amazonClone.png";
 import portfolioImg from "@/assets/project/portfolio.jpg";
 import portfolioImgTwo from "@/assets/project/portfolioTwo.jpg";
 // ================ Porject Images End here ======================
@@ -61,11 +58,7 @@ export {
   aboutUsImgOne,
   aboutUsImgThree,
   aboutUsImgTwo,
-  // Project Image
   eCommerceProImg,
-  //movieStudioImg,
-  //cyberBlogImg,
-  //amazonCloneImg,
   portfolioImg,
   portfolioImgTwo,
 };
